@@ -43,8 +43,9 @@ body {
   margin: 0;
   word-wrap: break-word;
   background-image: url('../images/background.jpg');
-  background-size: cover;
-  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
 }
 a {
   background-color: transparent;

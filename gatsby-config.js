@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Border Collie Toluca DF CDMX`,
+    title: `Border Collie Toluca`,
     description: `Encuentra a tu Border Collie ideal`,
     author: `@webmaster`,
     siteUrl: `https://bordertoluca.com/`,

@@ -71,8 +71,8 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
-    <div className={styles.textCenter}>
+    <Seo title="Principal" />
+    {/* <div className={styles.textCenter}>
       <StaticImage
         src="../images/example.png"
         loading="eager"
@@ -115,7 +115,7 @@ const IndexPage = () => (
         <a href={`${link.url}${utmParameters}`}>{link.text}</a>
         {i !== moreLinks.length - 1 && <> · </>}
       </React.Fragment>
-    ))}
+    ))} */}
   </Layout>
 )
 

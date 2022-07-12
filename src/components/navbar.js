@@ -2,7 +2,6 @@ import * as React from "react"
 
 const Navbar = () => (
 <nav className="navbar">
-  <div className="logo">Border Collie Toluca</div>
   <ul className="nav-links">
     <div className="menu">
     <li><a href="#">Inicio</a></li>

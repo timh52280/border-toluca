@@ -73,7 +73,6 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 const IndexPage = () => (
   <Layout>
     <Seo title="Principal" />
-    <Navbar />
     {/* <div className={styles.textCenter}>
       <StaticImage
         src="../images/example.png"

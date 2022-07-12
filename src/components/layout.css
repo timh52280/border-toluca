@@ -281,8 +281,8 @@ pre tt:after {
 
 .navbar {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-end;
+  justify-content:end;
   padding: 20px;
 }
 

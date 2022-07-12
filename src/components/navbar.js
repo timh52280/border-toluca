@@ -1,17 +1,24 @@
 import * as React from "react"
 
 const Navbar = () => (
+<>
+<label>
+<input type="checkbox" />
+<span class="menu-mobile"><span class="hamburger"></span></span>
+<ul>
+  <li><a href="#">Inicio</a></li>
+  <li><a href="#">Nosotros</a></li>
+  <li><a href="#">Contacto</a></li>
+</ul>
+</label>
 <nav className="navbar">
   <ul className="nav-links">
-    <div className="menu">
     <li><a href="#">Inicio</a></li>
-    <li><a href="#">Acerca de...</a></li>
-    <li><a href="#">Ejemplares</a></li>
-    <li><a href="#">Cachorros</a></li>
+    <li><a href="#">Nosotros</a></li>
     <li><a href="#">Contacto</a></li>
-    </div>
   </ul>
 </nav>
+</>
 );
 
 export default Navbar;

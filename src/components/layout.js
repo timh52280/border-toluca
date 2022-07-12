@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import "./layout.css"
 import Navbar from "./navbar"
-import { slide as Menu } from 'react-burger-menu'
+import Logo from "./logo"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -24,14 +24,10 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
-        <Menu>
-        <a id="home" className="menu-item" href="/">Home</a>
-        <a id="about" className="menu-item" href="/about">About</a>
-        <a id="contact" className="menu-item" href="/contact">Contact</a>
-      </Menu>
+    <div id="outer-container">
+        <Logo />
         <Navbar />
-        <main>{children}</main>
+        <main id="page-wrap">{children}</main>
         <footer
           style={{
             marginTop: `var(--space-5)`,
@@ -42,7 +38,7 @@ const Layout = ({ children }) => {
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>
-    </>
+    </div>
   )
 }
 

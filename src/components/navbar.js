@@ -1,3 +1,5 @@
+import * as React from "react"
+
 const Navbar = () => (
 <nav class="menu">
   <ul>

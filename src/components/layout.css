@@ -64,12 +64,8 @@ html {
     margin: 0;
     word-wrap: break-word;
     background-image: url('../images/background-xs.png');
-    background-repeat:no-repeat;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
-    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
   }
 }
 @media (min-width: 601px) and (max-width: 768px) {
@@ -83,12 +79,8 @@ html {
     margin: 0;
     word-wrap: break-word;
     background-image: url('../images/background.png');
-    background-repeat:no-repeat;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
-    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
   }
 }
 @media (min-width: 769px) {
@@ -102,12 +94,8 @@ html {
     margin: 0;
     word-wrap: break-word;
     background-image: url('../images/background.png');
-    background-repeat:no-repeat;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
-    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
   }
 }
 
